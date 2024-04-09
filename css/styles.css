@@ -1,33 +1,55 @@
 :root {
-  /* */
+  --main-color: #434455;
+  --item-color: #2e2f42;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  color: #434455;
+  color: var(--main-color);
   background-color: #ffffff;
 }
 
-nav > ul,
-address > ul,
+.menu,
 section > ul {
   list-style: none;
   padding: 0;
 }
 
+.address > {
+  font-style: normal;
+}
+
+.contact > .item {
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.menu > .item {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--item-color);
+  text-decoration: none;
+}
+
 .logo {
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
-.logo span:first-child {
+.logo {
   color: #4d5ae5;
 }
-.logo span:last-child {
+
+.logo > .studio {
   color: #2e2f42;
 }
 
