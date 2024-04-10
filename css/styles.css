@@ -226,12 +226,25 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
+  cursor: pointer;
 }
 
 .filter-btn:focus,
 .filter-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
+}
+
+.bank-app {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--item-color);
+}
+
+.bank-app-desc {
+  font-size: 16px;
 }
 
 .dummy {
