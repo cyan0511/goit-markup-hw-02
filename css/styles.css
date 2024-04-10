@@ -19,7 +19,7 @@ body {
   color: var(--item-color);
 }
 
-.contact > .list > .item > .link {
+.contact-link {
   color: var(--main-color);
 }
 
