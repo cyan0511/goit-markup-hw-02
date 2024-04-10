@@ -235,7 +235,7 @@ body {
   background-color: #404bbf;
 }
 
-.bank-app {
+.portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -243,8 +243,11 @@ body {
   color: var(--item-color);
 }
 
-.bank-app-desc {
+.portfolio-desc {
   font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  line-height: 1.5;
 }
 
 .dummy {
