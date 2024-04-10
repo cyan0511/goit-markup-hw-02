@@ -257,7 +257,7 @@ body {
   left: inherit;
   top: inherit;
   box-sizing: inherit;
-  display: inherit;
+  display: none;
   align-items: inherit;
   padding: inherit;
   flex-direction: inherit;
