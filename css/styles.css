@@ -9,9 +9,18 @@ body {
   background-color: #ffffff;
 }
 
-.menu {
+.list {
   list-style: none;
   padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:focus,
+.link:hover {
+  color: #404bbf;
 }
 
 .our-team {
@@ -34,7 +43,7 @@ body {
   font-style: normal;
 }
 
-.contact > .item {
+.contact {
   font-style: normal;
   line-height: 1.5;
 }
