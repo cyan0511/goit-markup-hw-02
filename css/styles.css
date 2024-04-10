@@ -143,6 +143,16 @@ body {
   color: #434455;
 }
 
+.what-we-do {
+  list-style: none;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--item-color);
+}
+
 .footer {
   height: 312px;
   top: 2280px;
@@ -172,8 +182,4 @@ body {
   margin-left: 156px;
   gap: 0px;
   opacity: 0px;
-}
-
-h2 {
-  text-align: center;
 }
