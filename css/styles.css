@@ -28,20 +28,32 @@ body {
   color: #404bbf;
 }
 
-.our-team {
+.team {
   background-color: #f4f4fd;
-}
-
-.our-team > .team {
   color: var(--item-color);
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team-item {
   background-color: #ffffff;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--item-color);
 }
 
 .address > {
@@ -163,7 +175,6 @@ body {
 }
 
 .what-we-do {
-  list-style: none;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
