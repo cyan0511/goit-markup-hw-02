@@ -64,7 +64,7 @@ body {
   color: #4d5ae5;
 }
 
-.header > .logo > .studio {
+.logo > .studio {
   color: var(--item-color);
 }
 
@@ -119,19 +119,28 @@ body {
 }
 
 .features {
-  top: 792px;
-  left: 156px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.features > ul > li {
   width: 264px;
   height: 104px;
   top: 792px;
   left: 156px;
   gap: 8px;
   opacity: 0px;
+  list-style: none;
+}
+
+.features-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--item-color);
+}
+
+.feature-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .footer {
