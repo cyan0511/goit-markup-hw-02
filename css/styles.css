@@ -28,6 +28,10 @@ body {
   color: #404bbf;
 }
 
+.our-team {
+  background-color: #f4f4fd;
+}
+
 .team {
   background-color: #f4f4fd;
   color: var(--item-color);
@@ -212,4 +216,23 @@ body {
   margin-left: 156px;
   gap: 0px;
   opacity: 0px;
+}
+
+.dummy {
+  position: inherit;
+  width: inherit;
+  height: inherit;
+  left: inherit;
+  top: inherit;
+  box-sizing: inherit;
+  display: inherit;
+  align-items: inherit;
+  padding: inherit;
+  flex-direction: inherit;
+  gap: inherit;
+  border-radius: inherit;
+  box-shadow: inherit;
+  order: inherit;
+  flex-grow: inherit;
+  border-bottom: inherit;
 }
