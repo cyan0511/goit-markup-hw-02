@@ -19,6 +19,10 @@ body {
   color: var(--item-color);
 }
 
+.contact > .list > .item > .link {
+  color: var(--main-color);
+}
+
 .link:focus,
 .link:hover {
   color: #404bbf;
