@@ -11,7 +11,6 @@ body {
 
 .list {
   list-style: none;
-  padding: 0;
 }
 
 .link {
@@ -60,7 +59,7 @@ body {
   color: var(--item-color);
 }
 
-.address > {
+.address {
   font-style: normal;
 }
 
@@ -103,40 +102,18 @@ body {
 }
 
 .our-service {
-  height: 600px;
-  top: 72px;
-  gap: 0px;
   opacity: 0px;
   background-color: #2e2f42;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-
-.our-service > .title {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #ffffff;
-  width: 525px;
 }
 
 .order-service {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  height: 56px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
   border-radius: 4px 0px 0px 0px;
   opacity: 0px;
   background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px #00000026;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -149,11 +126,6 @@ body {
 }
 
 .features {
-  width: 264px;
-  height: 104px;
-  top: 792px;
-  left: 156px;
-  gap: 8px;
   opacity: 0px;
 }
 
@@ -163,7 +135,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--item-color);
-  display: none;
 }
 
 .feature > {
@@ -188,14 +159,9 @@ body {
 }
 
 .footer {
-  height: 312px;
-  top: 2280px;
-  gap: 0px;
   opacity: 0px;
   background-color: #2e2f42;
-  display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
 .footer > .logo .studio {
@@ -209,12 +175,10 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
-  width: 264px;
 }
 
 .footer > * {
   margin-left: 156px;
-  gap: 0px;
   opacity: 0px;
 }
 
@@ -248,23 +212,4 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
   line-height: 1.5;
-}
-
-.dummy {
-  position: inherit;
-  width: inherit;
-  height: inherit;
-  left: inherit;
-  top: inherit;
-  box-sizing: inherit;
-  display: none;
-  align-items: inherit;
-  padding: inherit;
-  flex-direction: inherit;
-  gap: inherit;
-  border-radius: inherit;
-  box-shadow: inherit;
-  order: inherit;
-  flex-grow: inherit;
-  border-bottom: inherit;
 }
